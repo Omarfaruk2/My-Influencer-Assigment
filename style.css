@@ -1,0 +1,200 @@
+/* --------Fonts ------*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;700&family=Qwitcher+Grypen:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* ------
+    -------header_section---
+    ----- */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-secound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tittle{
+   width: 1150px;
+
+}
+
+    /*-------------
+    -- banner_section--
+    ------------- */
+
+.frist-banner{
+    display: flex;
+    align-items: center;
+    width: 1150px;
+}
+.banner-left h1{
+    font-size: 52px;
+    margin: 0px;
+}
+.banner-left p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.banner-left button{
+    background-color:#E02C6D;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+}
+.banner-left button a{
+    color: white;
+    text-decoration: none;
+}
+.banner-left button a, i{
+    font-size: 16px;
+    margin-left: 3px;
+}
+.banner-right img{
+    width: 440px;
+    height: 414px;
+}
+
+
+.product-tittle h1{
+    text-align: center;
+    font-size: 28px;
+}
+.products{
+    width: 1150px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+.product{
+    padding: 20px;
+    width: 300px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.27) 0px 5px 15px;
+    border-radius: 7px;
+}
+.product h2, .product h1, .product p{
+    margin:0;
+}
+.product h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+.item i{
+    color: #FB8200;
+}
+.see-more{
+    color:#E02C6D;
+}
+
+.bonus{
+
+    width: 1150px;
+    margin: 40px auto;
+}
+.see-more{
+    text-align: right;
+}
+.bonus-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1150px;
+}
+.bonus-right{
+    width: 117%;
+}
+.bonus-right h1{
+    margin: 0px;
+    font-size: 38px;
+}
+.bonus-right p{
+    margin: 0;
+}
+.bonus-left img{
+    border: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+    border-radius: 7px;
+    width: 85%;
+}
+.bonus-right button{
+    background-color:#E02C6D;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    margin-top: 10px;
+}
+.bonus-right button a{
+    color: white;
+    text-decoration: none;
+}
+.bonus-right button a, i{
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+    /*-0-------------
+    --- footer---
+    ----------------- */
+
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+}
+.footer{
+    padding: 30px 0;
+    margin-top:100px;
+}
+.footer h2,p,small{
+    margin: 0;
+    padding: 0;
+}
+.social-icon i{
+    margin:10px;
+    color:white;
+    background-color: rgba(0,0,0, .6) ;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .frist-banner{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .bonus-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+
+
+
