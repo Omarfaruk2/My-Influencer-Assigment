@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 .tittle{
-   width: 1150px;
+   width: 1220px;
 
 }
 
@@ -34,7 +34,7 @@ body{
 .frist-banner{
     display: flex;
     align-items: center;
-    width: 1150px;
+    width: 1220px;
 }
 .banner-left h1{
     font-size: 52px;
@@ -99,7 +99,7 @@ body{
 
 .bonus{
 
-    width: 1150px;
+    width: 1220px;
     margin: 40px auto;
 }
 .see-more{
@@ -110,7 +110,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1150px;
+    width: 1220px;
 }
 .bonus-right{
     width: 117%;
@@ -170,12 +170,11 @@ footer{
     font-size: 25px;
 }
 
-@media screen and (max-width:576px) {
-    .container{
-        width: 100%;
+@media screen and (max-width:590px) {
+    .container, .tittle{
+        width: 400px;
         flex-direction: column;
         text-align: center;
-        
     }
     .frist-banner{
         width: 100%;
@@ -183,13 +182,18 @@ footer{
         justify-items: center;
         grid-template-columns: repeat(1,1fr);
     }
-    .products{
-        grid-template-columns: repeat(1,1fr);
-       
+    main{
+        width: 100%;
     }
-    .bonus-section{
+    .products{
+        width: 400px;
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .bonus-section, .bonus{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        width: 400px;
     }
 }
 
